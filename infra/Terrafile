@@ -13,4 +13,6 @@ elasticache:
 rabbitmq:
   source:  "https://github.com/praveenarupi/tf-module-rabbitmq.git"
   version: "main"
-
+eks:
+  source: "https://github.com/r-devops/tf-module-eks.git"
+  version: "main"
